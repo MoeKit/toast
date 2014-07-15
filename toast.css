@@ -1,0 +1,34 @@
+.mk-toast {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin: 9px;
+    padding: 8px 18px;
+    font-size: 12px;
+    display: inline-block
+}
+
+.mk-toast-error {
+    background-color: #fef1f1;
+    border: 1px solid #e2a8a8;
+    color: #D46D6D
+}
+
+.mk-toast-warning {
+    background-color: #FFFAE4;
+    border: 1px solid #F4CD33;
+    color: #C39D02
+}
+
+.mk-toast-success {
+    background-color: #e8f7ed;
+    border: 1px solid #30b661;
+    color: #1BA84E
+}
+
+.mk-toast-info {
+    border: 1px solid #bdc4c9;
+    color: #aaa
+}
